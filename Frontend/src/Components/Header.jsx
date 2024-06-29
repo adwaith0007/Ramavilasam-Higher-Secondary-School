@@ -53,7 +53,7 @@ const Header = () => {
             <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Scholarship</button>
             <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Admission</button>
             <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">About</button>
-            <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Home</button>
+            <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Home2</button>
           </div>
           <div className="md:hidden">
             <button onClick={toggleMenu}>
