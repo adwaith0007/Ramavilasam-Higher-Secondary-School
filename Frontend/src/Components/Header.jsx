@@ -48,7 +48,7 @@ const Header = () => {
             <a href="mailto:admin@vjec.ac.in">✉️ admin@RVHSS.ac.in</a>
           </div>
           <div className="hidden md:flex flex-wrap justify-between items-center space-x-2">
-            <button onClick={goHome} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200 ">Home</button>
+            <button onClick={goHome} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200 ">Home page</button>
             <button onClick={goContact} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Contact</button>
             <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Scholarship</button>
             <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Admission</button>
