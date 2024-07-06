@@ -20,6 +20,23 @@ const Header = () => {
     navigate("/");
   };
 
+  const goAbout = () => {
+    navigate("/about");
+  };
+
+  const goFacilities = () => {
+    navigate("/facilities");
+  };
+  const goAdmission = () => {
+    navigate("/admission");
+  };
+
+  const goAdministration = () => {
+    navigate("/administration");
+  };
+
+
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -48,12 +65,12 @@ const Header = () => {
             <a href="mailto:admin@vjec.ac.in">✉️ admin@RVHSS.ac.in</a>
           </div>
           <div className="hidden md:flex flex-wrap justify-between items-center space-x-2">
-            <button onClick={goHome} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200 ">Home page</button>
-            <button onClick={goContact} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Contact</button>
-            <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Scholarship</button>
-            <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Admission</button>
-            <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">About</button>
-            <button className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Home2</button>
+            <button onClick={goHome} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200 ">Home</button>
+            <button onClick={goAbout} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">About</button>
+            <button onClick={goFacilities}  className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Facilities</button>
+            <button  onClick={goAdmission} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Admission</button>
+            <button onClick={goAdministration} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Administration</button>
+            <button  onClick={goContact} className="bg-blue-900 px-4 py-2 rounded hover:text-customOrange transition duration-100 ease-in-out delay-200">Contact</button>
           </div>
           <div className="md:hidden">
             <button onClick={toggleMenu}>
