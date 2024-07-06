@@ -2,12 +2,13 @@ import React from 'react'
 import Header from '../Components/Header'
 import Fotter from '../Components/Fotter'
 
-const Contact = () => {
+
+const Facilities = () => {
   return (
 
     <>
     <Header/>
-<div>contact</div>
+<div>Facilities</div>
 <Fotter/>
     
     </>
@@ -15,4 +16,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Facilities

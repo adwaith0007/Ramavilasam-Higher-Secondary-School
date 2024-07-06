@@ -2,12 +2,12 @@ import React from 'react'
 import Header from '../Components/Header'
 import Fotter from '../Components/Fotter'
 
-const Contact = () => {
+const Administration = () => {
   return (
 
     <>
     <Header/>
-<div>contact</div>
+<div>Administration</div>
 <Fotter/>
     
     </>
@@ -15,4 +15,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Administration
